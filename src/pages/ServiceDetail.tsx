@@ -241,6 +241,7 @@ export default function ServiceDetail() {
         }}
       >
         <div
+          className="overview-grid"
           style={{
             maxWidth: 900,
             margin: "0 auto",
@@ -300,6 +301,7 @@ export default function ServiceDetail() {
             Capabilities
           </h2>
           <div
+            className="deliverables-grid"
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(auto-fill, minmax(380px, 1fr))",

@@ -31,23 +31,22 @@ const team: TeamMember[] = [
     gradientTo: "#4a8060",
   },
   {
-    name: "Viola kemunto",
+    name: "Viola Kemunto",
     role: "Head of Data Science",
     bio: "ML/GeoAI researcher with expertise in ARD pipelines and time-series analysis.",
     gradientFrom: "#1a3326",
     gradientTo: "var(--sage)",
   },
-
-  // {
-  //   name: "Viola kemunto",
-  //   role: "Head of Data Science",
-  //   bio: "ML/GeoAI researcher with expertise in ARD pipelines and time-series analysis.",
-  //   gradientFrom: "#1a3326",
-  //   gradientTo: "var(--sage)",
-  // },
+  {
+    name: "Justus Kiptoo",
+    role: "GIS Solutions Engineer",
+    bio: "Spatial data engineer specialising in web mapping, API integrations, and client-facing geospatial platforms.",
+    gradientFrom: "#2a4a3a",
+    gradientTo: "#5a8a6a",
+  },
 ];
 
-const delays = ["delay-1", "delay-2", "delay-3", "delay-4"];
+const delays = ["delay-1", "delay-2", "delay-3", "delay-4", "delay-4"];
 
 function PersonIcon() {
   return (
@@ -163,7 +162,7 @@ export default function Team() {
           className="team-grid"
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(4, 1fr)",
+            gridTemplateColumns: "repeat(5, 1fr)",
             gap: "1.5rem",
           }}
         >
